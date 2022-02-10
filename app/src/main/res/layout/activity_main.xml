@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/furor_btn"
+        android:layout_width="313dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/furor_logo" />
+
+    <ImageButton
+        android:id="@+id/outfitters_btn"
+        android:layout_width="315dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/furor_btn"
+        app:srcCompat="@drawable/outfiters_400x220" />
+
+    <ImageButton
+        android:id="@+id/one_btn"
+        android:layout_width="324dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outfitters_btn"
+        app:srcCompat="@drawable/index" />
+
+    <ImageButton
+        android:id="@+id/cougars_btn"
+        android:layout_width="329dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one_btn"
+        app:srcCompat="@drawable/cougar_logo_800x" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
