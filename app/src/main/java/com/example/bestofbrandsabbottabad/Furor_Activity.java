@@ -18,7 +18,7 @@ public class Furor_Activity extends AppCompatActivity {
 
         webview = (WebView) findViewById(R.id.furor_webview);
         webview.setWebViewClient(new WebViewClient());
-        webview.loadUrl("https://furorjeans.com/");
+        webview.loadUrl("https://engine.com.pk/");
 
         WebSettings webSettings  = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);

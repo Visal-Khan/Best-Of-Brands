@@ -4,47 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ImageButton
         android:id="@+id/furor_btn"
-        android:layout_width="313dp"
-        android:layout_height="106dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="499dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/furor_logo" />
+        app:srcCompat="@drawable/new_logo_engine" />
 
     <ImageButton
         android:id="@+id/outfitters_btn"
-        android:layout_width="315dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="337dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/furor_btn"
         app:srcCompat="@drawable/outfiters_400x220" />
 
     <ImageButton
         android:id="@+id/one_btn"
-        android:layout_width="324dp"
-        android:layout_height="127dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="340dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/outfitters_btn"
         app:srcCompat="@drawable/index" />
 
     <ImageButton
         android:id="@+id/cougars_btn"
-        android:layout_width="329dp"
-        android:layout_height="112dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="502dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/one_btn"
         app:srcCompat="@drawable/cougar_logo_800x" />
